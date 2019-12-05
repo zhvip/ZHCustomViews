@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ZHCustomViews</string>
+    <string name="text_group">发起群聊</string>
+    <string name="text_add">添加好友</string>
+    <string name="text_sweep">扫一扫</string>
+    <string name="text_collect">收付款</string>
+    <string name="text_help">帮助与反馈</string>
+    <string name="show_menu">弹框</string>
+</resources>
