@@ -4,11 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.content.Intent;
 import android.os.Bundle;
 
-import com.zh.customviews.HomeListModel;
-import com.zh.customviews.MyHomeAdapter;
+import com.zh.customviews.models.HomeListModel;
+import com.zh.customviews.adapter.MyHomeAdapter;
 import com.zh.zhcustomviews.R;
 
 public class MainActivity extends AppCompatActivity {
@@ -31,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void intList() {
         adapter.addList(new HomeListModel(MenuActivity.class,"仿照微信弹出菜单框"));
+        adapter.addList(new HomeListModel(IOSUISwitchActivity.class,"仿iOS的UISwitch"));
 
     }
 

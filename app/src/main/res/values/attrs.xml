@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <declare-styleable name="IOSUISwitch">
+<!--        把手的颜色-->
+        <attr name="mHandleColor" format="color"/>
+<!--        打开状态槽的颜色-->
+        <attr name="mOpenSlotColor" format="color"/>
+<!--        关闭状态槽的颜色-->
+        <attr name="mOffSlotColor" format="color"/>
+<!--        边框宽-->
+        <attr name="mBorderWidth" format="dimension"/>
+<!--        关闭还是打开-->
+        <attr name="switchState" format="boolean"/>
+    </declare-styleable>
+    
+</resources>

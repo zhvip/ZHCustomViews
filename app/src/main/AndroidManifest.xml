@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.zh.customviews.activitys.MenuActivity"></activity>
+        <activity android:name="com.zh.customviews.activitys.IOSUISwitchActivity"></activity>
+        <activity android:name="com.zh.customviews.activitys.MenuActivity" />
         <activity android:name="com.zh.customviews.activitys.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

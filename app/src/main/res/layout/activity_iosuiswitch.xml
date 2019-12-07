@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zh.customviews.activitys.IOSUISwitchActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.zh.customviews.customView.IOSUISwitch
+            android:id="@+id/switch_one"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="100dp"
+            app:switchState="false"/>
+
+        <TextView
+            android:id="@+id/switch_state_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="关"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.zh.customviews.customView.IOSUISwitch
+            android:id="@+id/switch_two"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="100dp"
+            app:mOpenSlotColor="@color/colorWarning_1"
+            app:switchState="false"/>
+
+        <TextView
+            android:id="@+id/switch_state_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="关"/>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

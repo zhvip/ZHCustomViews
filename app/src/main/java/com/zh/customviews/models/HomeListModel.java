@@ -1,4 +1,4 @@
-package com.zh.customviews;
+package com.zh.customviews.models;
 
 import android.app.Activity;
 
