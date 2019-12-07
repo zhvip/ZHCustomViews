@@ -31,7 +31,8 @@ public class MainActivity extends AppCompatActivity {
     private void intList() {
         adapter.addList(new HomeListModel(MenuActivity.class,"仿照微信弹出菜单框"));
         adapter.addList(new HomeListModel(IOSUISwitchActivity.class,"仿iOS的UISwitch"));
-
+        adapter.addList(new HomeListModel(DialogDemoActivity.class,"Android弹框"));
+        adapter.addList(new HomeListModel(SlideDeleteActivity.class,"RecycleView左滑删除单元项"));
     }
 
 
