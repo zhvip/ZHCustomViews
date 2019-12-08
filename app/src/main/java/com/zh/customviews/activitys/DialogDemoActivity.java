@@ -7,6 +7,7 @@ import android.view.Window;
 import android.widget.Button;
 
 import com.zh.customviews.customView.IOSAlertView;
+import com.zh.customviews.customView.MyToast;
 import com.zh.zhcustomviews.R;
 
 import androidx.appcompat.app.AlertDialog;
@@ -20,6 +21,7 @@ public class DialogDemoActivity extends AppCompatActivity {
     private Button okBtn, cancelBtn;
 
     private IOSAlertView alertView;
+    private MyToast myToast;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,7 +31,7 @@ public class DialogDemoActivity extends AppCompatActivity {
     }
 
 
-    @OnClick({R.id.dialog_btn, R.id.iOSAlerViewBtn})
+    @OnClick({R.id.dialog_btn, R.id.iOSAlerViewBtn,R.id.toastBtn})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.dialog_btn:
@@ -78,6 +80,20 @@ public class DialogDemoActivity extends AppCompatActivity {
                 });
                 alertView.show();
                 break;
+
+
+            case R.id.toastBtn:
+
+                myToast = new MyToast.Builder(this)
+                        .setMessage("自定义Toast效果！")//设置提示文字
+                        .setGravity(Gravity.CENTER)//设置吐司位置
+                        .showIcon(true)//是否显示图标
+                        .build();//创建吐司
+
+                myToast.show();
+                break;
+
+
         }
     }
 }

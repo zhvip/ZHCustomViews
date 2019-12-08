@@ -15,3 +15,7 @@ android dialog弹出框1
 左滑删除单元格
 
 ![效果图](screenshots/左滑删除.png)
+
+自定义一个Toast效果
+
+<img src="screenshots/toast.png" alt="toast" style="zoom:50%;" />
